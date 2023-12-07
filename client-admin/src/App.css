@@ -1,0 +1,200 @@
+/* styles.css */
+.body-customer {
+  width: 1150px;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+  
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  
+ 
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+
+ul.menu {
+  margin: 1px;
+  padding: 1px;
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+li.menu a{
+text-decoration: none;
+padding:3px;
+background-color: rgb(200,200,200);
+color: black;
+border-radius: 4px;
+padding: 5px 20px;
+
+}
+li.menu  a:hover {
+  background-color: rgb(76, 73, 73);
+  color: #dcfcfc;
+  transition: background-color 0.4s;
+}
+form.search {
+  margin: 0px;
+}
+input.keyword {
+
+  width: 110px;
+}
+/* datatable.css */
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 15px;
+  /* Bo tròn góc bảng */
+  border: 1px solid;
+  overflow: hidden;
+  /* Tránh hiển thị các góc bị tròn ra khỏi bảng */
+}
+
+.datatable1 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.datatable th {
+  background-color: #333;
+  color: white;
+}
+
+.datatable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.datatable tr:hover {
+  background-color: #ddd;
+}
+
+.datatable td img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+}
+
+.datatable td:last-child {
+  text-align: center;
+}
+
+.datatable td:last-child span.link {
+  cursor: pointer;
+  margin: 0 3px;
+  background: #333;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: inline-block;
+  color: white;
+}
+
+.datatable td:last-child span.link:hover {
+  text-decoration: none;
+  background-color: #00000081;
+  transition: 0.3s;
+}
+
+.datatable td[colspan="6"] {
+  background-color: #ecf0f1;
+  height: 10px;
+}
+
+.datatable td[colspan="6"]:empty {
+  height: 0;
+}
+
+.datatable td[colspan="6"]:not(:empty) {
+  border: none;
+}
+
+.datatable td:last-child,
+.datatable td:first-child {
+  font-weight: bold;
+}
+
+.datatable td:last-child.Total {
+  color: #e74c3c;
+}
+
+.datatable td:last-child.Checkout {
+  text-align: center;
+}
+
+.align-center1 {
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.body-menu {
+  background-color: rgb(139, 139, 139);
+  position: fixed;
+  width: 100%;
+}
+
+.logout {
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
+.logout:hover {
+  color: red;
+}

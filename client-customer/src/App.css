@@ -1,0 +1,584 @@
+/* styles.css */
+
+.body-customer {
+  position: relative;
+  width: 100%;
+}
+
+.body-admin {
+  width: fit-content;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+div.inline {
+  display: inline-block;
+}
+
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+
+.align-center1 {
+  background-color: #e3e3e3;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.align-center1 input[type="text"],
+.align-center1 input[type="password"],
+.align-center1 input[type="tel"],
+.align-center1 input[type="email"],
+.align-center1 input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.align-center1 input[type="submit"] {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.align-center1 input[type="submit"]:hover {
+  background-color: #555;
+  transition: 0.3s;
+}
+
+.align-bottom {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(224, 220, 220);
+  padding-top: 5px;
+}
+
+#suport {
+  margin-left: 7%;
+}
+
+#suport #detail1 {
+  display: block;
+  font-weight: bold;
+}
+
+#suport #detail1 {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#suport #detail2 {
+  margin-bottom: 15px;
+}
+
+#info a {
+  margin-left: 20px;
+}
+
+#info {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
+  color: black;
+  font-weight: bold;
+}
+
+#info img {
+  margin-top: 5px;
+  width: 30px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain the aspect ratio */
+}
+
+/* .align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+} */
+.text-center {
+  text-align: center;
+}
+
+span.link1 {
+  margin-left: 13px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #e74c3c;
+  color: white;
+}
+
+span.link1 a:hover {
+  background-color: #247e52;
+  transition: 0.3s;
+}
+
+/* menu.css */
+div.border-bottom {
+  padding: 10px 0px 10px 0px;
+}
+
+div.float-left {
+  float: left;
+  display: flex;
+  margin-left: 30px;
+}
+
+div.float-left :link {
+  text-decoration: none;
+}
+
+/* zzzzzzzzzzzzzzzfloat-rigth zzzzzzzzzzzzzzzzzzzzzzz*/
+div.float-right {
+  float: right;
+  padding: 10px;
+}
+
+div.float-right input {
+  margin-left: 10px;
+  height: 30px;
+}
+
+.search #search {
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.search #search:hover {
+  border: 1px solid rgb(200, 200, 200);
+  transition: 0.3s;
+}
+
+#submit {
+  border-radius: 10px;
+}
+
+#submit:hover {
+  color: white;
+  transition: 0.3s;
+  border: 1px solid white;
+  background-color: rgb(55, 55, 55);
+  ;
+}
+
+div.float-right :link {
+  text-decoration: none;
+}
+
+/* zzzzzzzzzzzzzzzzzzzfloat rigth zzzzzzzzzzzzzzzzzzzzzz*/
+div.float-clear {
+  clear: both;
+}
+
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+li.menu1 {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+li.menu1 a {
+  color: black;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+li.menu1 img {
+  width: 30px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain the aspect ratio */
+  margin-right: 5px;
+  /* Adjust the margin as needed */
+}
+
+ul.menu {
+  margin: 0px;
+  padding: 10px;
+  margin: 0px;
+  background-color: rgb(139, 139, 139);
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+ul.menu a {
+  color: white;
+}
+
+ul.menu :link {
+  padding: 8px;
+}
+
+li.menu :hover {
+  background-color: rgb(200, 200, 200);
+  color: black;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+form.search {
+  margin: 0px;
+}
+
+input.keyword {
+  width: 110px;
+}
+
+.body-menu {
+  background-color: rgb(139, 139, 139);
+  position: fixed;
+  width: 100%;
+}
+
+#inaccount {
+  align-items: center;
+  margin-top: 60px;
+  display: flex;
+}
+
+#inaccount img {
+  width: 40px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain the aspect ratio */
+  margin-right: 5px;
+  /* Adjust the margin as needed */
+}
+
+#account {
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#account a {
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#account a:hover {
+  background-color: rgb(139, 139, 139);
+  transition: 0.5s;
+  color: white;
+  padding: 13px;
+  border-radius: 40px;
+}
+
+#account img {
+  width: 40px;
+  height: auto;
+  margin-right: 5px;
+}
+
+#mycart {
+  margin-right: 30px;
+  display: flex;
+  margin-top: 18px;
+  margin-top: 60px;
+}
+
+#mycart img {
+  width: 40px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain the aspect ratio */
+  margin-right: 5px;
+  /* Adjust the margin as needed */
+
+}
+
+#mycart b {
+  color: red;
+}
+
+#logout {
+  padding: 15px;
+  border-radius: 10px;
+
+}
+
+#inaccount a {
+  background-color: rgb(200, 200, 200);
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#inaccount a:hover {
+  border: none;
+  background-color: rgb(139, 139, 139);
+  transition: 0.5s;
+  color: white;
+  padding: 13px;
+  border-radius: 40px;
+}
+
+/*MYCART*/
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 15px;
+  /* Bo tròn góc bảng */
+  border: 1px solid;
+  overflow: hidden;
+  /* Tránh hiển thị các góc bị tròn ra khỏi bảng */
+}
+
+.datatable1 {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.datatable th {
+  background-color: #333;
+  color: white;
+}
+
+.datatable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.datatable tr:hover {
+  background-color: #ddd;
+}
+
+.datatable td img {
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 5px;
+}
+
+.datatable td:last-child {
+  text-align: center;
+}
+
+.datatable td:last-child span.link {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  display: inline-block;
+  background-color: #e74c3c;
+  color: white;
+}
+
+.datatable td:last-child span.link:hover {
+  text-decoration: none;
+  background-color: #00000081;
+  transition: 0.3s;
+}
+
+.datatable td[colspan="6"] {
+  background-color: #ecf0f1;
+  height: 10px;
+}
+
+.datatable td[colspan="6"]:empty {
+  height: 0;
+}
+
+.datatable td[colspan="6"]:not(:empty) {
+  border: none;
+}
+
+.datatable td:last-child,
+.datatable td:first-child {
+  font-weight: bold;
+}
+
+.datatable td:last-child.Total {
+  color: #e74c3c;
+}
+
+.datatable td:last-child.Checkout {
+  text-align: center;
+}
+
+.body-main {
+  height: 100vh;
+  padding-bottom: 200px;
+  min-height: auto;
+}
+
+/* google-map */
+
+.google-map{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+.anhlinhtinh{
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* CSS */
+.apple-form {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+}
+
+.apple-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.apple-label {
+  padding: 8px;
+  text-align: right;
+  font-weight: bold;
+  color: #555;
+}
+
+.apple-info {
+  padding: 8px;
+}
+
+.apple-input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.apple-submit-btn {
+  padding: 10px 20px;
+  background-color: #0070c9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.apple-submit-btn:hover {
+  background-color: #005ba1;
+}
+
+/* Style for the figure caption */
+figcaption {
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+/* Style for the form */
+.apple-form {
+  margin-bottom: 20px;
+  
+}
+
+/* Style for the table */
+.apple-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table cells */
+.apple-label {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  min-width: 150px; /* Đặt chiều rộng tối thiểu cho các nhãn */
+}
+
+.apple-label{
+  text-align: left;
+}
+
+/* Style for the table data cells */
+.apple-table td {
+  padding: 8px;
+}
+
+/* Style for the submit button */
+input[type="muahang"] {
+  padding: 8px 16px;
+  background-color: rgba(200, 200, 200, 0.8); /* Màu xám có độ trong suốt */
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 2%; /* Làm cho nút trở thành hình tròn */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+input[type="muahang"]:hover {
+  background-color: rgba(180, 180, 180, 0.8); /* Màu xám nhạt khi di chuột qua */
+}
+
+/* banner */
+
+.anh-banner{
+  width: 100%;
+  margin: auto;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%; /* Đảm bảo footer chiếm toàn bộ chiều rộng của trang */
+  background-color: #f1f1f1; /* Màu nền của footer */
+  /* Thêm các thuộc tính CSS khác nếu cần */
+}
+
+
+.inline {
+  display: inline-block;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.inline:hover {
+  transform: scale(1.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Các style khác */
